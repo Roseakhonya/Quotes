@@ -5,4 +5,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: antiquewhite;
+    text-transform: lowercase;
+}
+.quotes {
+    font-size: 20px;
+}
+form{
+    font-size:30px ;
 }
