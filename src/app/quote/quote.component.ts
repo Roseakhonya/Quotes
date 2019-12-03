@@ -7,12 +7,12 @@ import {Quote} from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quote: Quote[] = [
-    new Quote(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son',new Date(2020,3,14)),
-    new Quote(2,'Buy Cookies','I have to buy cookies for the parrot',new Date(2020,3,14)),
-    new Quote(3,'Get new Phone Case','Diana has her birthday coming up soon',new Date(2020,3,14)),
-    new Quote(4,'Get Dog Food','Pupper likes expensive snacks',new Date(2020,3,14)),
-    new Quote(5,'Solve math homework','Damn Math',new Date(2020,3,14)),
-    new Quote(6,'Plot my world domination plan','Cause I am an evil overlord',new Date(2020,3,14)),
+    new Quote(1,'If you cannot handle me at my worst, you do not deserve me at my best', 'Marilyn Monroe' ,new Date(1997,2,24)),
+    new Quote(2,'A room without books is like a body without a soul.',' Marcus Tullius Cicero',new Date(2001,11,25)),
+    new Quote(3,'You know you are in love when you cannot fall asleep because reality is finally better than your dreams','Dr. Seuss',new Date(1982,4,25)),
+    new Quote(4,'You only live once, but if you do it right, once is enough','Mae West',new Date(2018,2,2)),
+    new Quote(5,'The journey to heaven begins in hell','Sam Tomashi',new Date(2019,10,10)),
+    new Quote(6,'No one can make you feel inferior without your consent','Eleanor Roosevelt',new Date(2007,12,4)),
   ];
   toggleDetails(index){
     this.quote[index].showDescription = !this.quote[index].showDescription;
