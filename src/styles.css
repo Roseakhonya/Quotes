@@ -1,15 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
-    background: url("https://bit.ly/2P6v9S7");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://bit.ly/2P6v9S7");
     background-size: cover;
     background-repeat: no-repeat;
     color: antiquewhite;
-    text-transform: lowercase;
 }
 .quotes {
     font-size: 20px;
 }
 form{
     font-size:30px ;
+}
+h1 {
+    color: red;
+    font-family: 'Nosifer', cursive;
 }
